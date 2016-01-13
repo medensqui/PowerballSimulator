@@ -8,20 +8,20 @@ public class PowerballSimulator {
 		Scanner input = new Scanner(System.in);
 		Random x = new Random();
 		int ball1 = 0;
-		int ball2 = 0; 
-		int ball3 = 0; 
-		int ball4 = 0; 
-		int ball5 = 0; 
-		int powerball = 0; 
+		int ball2 = 0;
+		int ball3 = 0;
+		int ball4 = 0;
+		int ball5 = 0;
+		int powerball = 0;
 		int myball1 = 0;
-		int myball2 = 0; 
-		int myball3 = 0; 
-		int myball4 = 0; 
-		int myball5 = 0; 
-		int mypowerball = 0; 
-		int moneyspent = 0; 
+		int myball2 = 0;
+		int myball3 = 0;
+		int myball4 = 0;
+		int myball5 = 0;
+		int mypowerball = 0;
+		int moneyspent = 0;
 		int winnings = 0;
-		boolean quickpick = false; 
+		boolean quickpick = false;
 		int tickets = 0;
 
 		while(true) {
@@ -63,88 +63,89 @@ public class PowerballSimulator {
 
 			System.out.println("Your numbers were " + myball1 + ", " + myball2 + ", " + myball3 + ", " + myball4 + ", " + myball5 + " and your powerball was " + mypowerball);
 			System.out.println("The winning numbers were " + ball1 + ", " + ball2 + ", " + ball3 + ", " + ball4 + ", " + ball5 + " and the powerball was " + powerball);
+
 			if (ball1 == myball1 && ball2 == myball2 && ball3 == myball3 && ball4 == myball4 && ball5 == myball5 && powerball == mypowerball) {
 				System.out.println("You won the jackpot!");
 				winnings = winnings + 1500000000;
 			}
 			else if (powerball == mypowerball) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball1 == myball1) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball2 == myball2) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball3 == myball3) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball4 == myball4) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball5 == myball5) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball1 == myball2) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball1 == myball3) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball1 == myball4) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball1 == myball5) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball2 == myball1) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball2 == myball3) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball2 == myball4) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball2 == myball5) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball3 == myball1) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball3 == myball2) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball3 == myball4) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball3 == myball5) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball4 == myball1) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball4 == myball2) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball4 == myball3) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball4 == myball5) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball5 == myball1) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball5 == myball2) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball5 == myball3) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball5 == myball4) {
 				System.out.println("You won 4 dollars!");
-				winnings = winnings + 4;	} 
+				winnings = winnings + 4;	}
 			else if (powerball == mypowerball && ball1 == myball1 && ball2 == myball2) {
 				System.out.println("You won 7 dollars!");
 				winnings = winnings + 7; }
@@ -154,9 +155,7 @@ public class PowerballSimulator {
 			else if (powerball == mypowerball && ball1 == myball1 && ball2 == myball3) {
 				System.out.println("You won 7 dollars!");
 				winnings = winnings + 7; }
-			
+
 		}
 		}
 	}
-
-
